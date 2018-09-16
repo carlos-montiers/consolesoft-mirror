@@ -1,0 +1,28 @@
+SOUND v1.1.1 (unicode)
+
+SOUND.EXE is a tool for play sound files in format .wav from cmd.exe
+Is very good. You can play sounds and also stop it.
+A sound is stop automatically when the cmd.exe window that launch the command is closed.
+Also when you use the argument stop.
+
+Notice: This version fixes a problem happened on windows 7 sp1 playing a wav file.
+
+::::: Parameters :::::
+
+Sound Play soundfile.wav
+::Play soundfile.wav from begin to the end
+
+Sound Play soundfile.wav secondsToPlay
+::Play soundfile.wav from begin, the number of secondsToPlay specified.
+::If the sound end before secondsToPlay, the sound is play again.
+::If secondsToPlay is -1, the sound is play infinitely, until you stop it
+::or stop automatically, because you close the cmd.exe window that launch it.
+
+Sound Stop soundfile.wav
+::Stop the play of soundfile.wav
+::If the same process is playing many sounds of the same filename, all are stopped.
+
+Examples:
+Sound Play waka_waka.wav 5
+Sound Play waka_waka.wav -1
+Sound Stop waka_waka.wav

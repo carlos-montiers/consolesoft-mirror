@@ -2,8 +2,16 @@
 
 .gitignore	text
 .gitattributes	text
+
 *.md		text
 *.txt		text
 
+*.asm		text
+*.ASM		text
+*.bat		text
+*.cmd		text
+
+*.com		binary
+*.exe		binary
 *.png		binary
 *.zip		binary

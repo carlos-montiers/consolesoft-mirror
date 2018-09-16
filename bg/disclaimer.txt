@@ -1,0 +1,3 @@
+Note:
+At moment of release, the executables was scanned with 66 antivirus,
+and the detection was 0/66.
