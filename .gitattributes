@@ -1,0 +1,9 @@
+* text=auto
+
+.gitignore	text
+.gitattributes	text
+*.md		text
+*.txt		text
+
+*.png		binary
+*.zip		binary
