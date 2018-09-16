@@ -1,0 +1,20 @@
+SPRITE v2.3.1 (unicode)
+
+SPRITE.EXE is a tool for draw on the console screen a sprite file
+created with EDITOR.EXE
+The row and column are the coordinates of the screen where begin to draw.
+That indexes begin in 0, but also you can specify negative values like -1, -2,
+for specify begin outside the visible area.
+
+row column fileName [...]
+Draw the sprite file on the screen coords: row, column.
+The file of the sprite was created using the editor.
+
+Note: Since version 2.0 sprite.exe uses a buffer.
+Thus, after draw all .spr files into the buffer,
+it draws the content of the buffer on the screen at once.
+
+Sprite read only visible screen buffer rectangle
+instead all screen buffer (csbi.dwSize)
+For example:
+From a screen buffer of 80x300 we read only the window rectangle than can be 80x39

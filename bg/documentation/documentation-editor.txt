@@ -1,0 +1,33 @@
+{Sprite} Editor v1.0.1 (unicode)
+
+EDITOR.EXE is a tool for create sprites for draw with SPRITE.EXE
+
+EDITOR create filename width eight
+EDITOR alter filename
+
+The width must be from 1 to 120.
+The eight must be from 1 to 60.
+
+For example:
+editor create mydraw.spr 11 8
+That will create a paint zone of 11x8 and when you save it the data would be on mydraw.spr
+
+editor alter mydraw.spr
+That will open the file mydraw.spr and you can edit it.
+
+The first column area is the color of background, the second column are is the color of foreground.
+You need select a background color, a foreground color and a symbol from the palette and clic on the paint zone.
+X means transparent.
+In the paint zone, do a secondary mouse clic and the cell will be transparent.
+
+For save and quit, do a secondary mouse clic outside the paint zone.
+
+
+About the format of the saved file. Is this in little endian:
+2 bytes (SHORT) width
+2 bytes (SHORT) eight
+4 bytes (CHAR_INFO): 2 bytes unicode char, 2 bytes attributes
+...more (CHAR_INFO)
+
+About the transparency: is used the 0 unicode char.
+When sprite read it, use the character that is on the screen.

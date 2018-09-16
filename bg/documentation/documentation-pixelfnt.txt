@@ -1,0 +1,24 @@
+PIXELFNT v1.5
+Programmed by Carlos Montiers Aguilera
+
+Usage PIXELFNT 1|2|3
+ where:
+ 1 = 1x1
+ 2 = 2x2
+ 3 = 3x3
+
+Load in the current windows session for cmd.exe
+until reboot a raster font of 1x1 pixels and set it.
+
+The executable PIXELFNT.EXE have on self 3 font files:
+
+PIXEL1.FNT (size: 292 bytes. sha1: acd66cacc1e9d4940990dab8b7ef127ddf6b43b8)
+
+PIXEL2.FNT (size: 325 bytes. sha1: 240912828a9672f86f4972d72292eace5d20303a)
+
+PIXEL3.FNT (size: 358 bytes. sha1: 3d1aef8f5055bfcfb44d86c4a5939b655af6fa18)
+
+and create ( only if it not exist ) for use, in the Temp directory of the Windows installation,
+usually "C:\Windows\Temp".
+
+Note: for restore the font see the documentation of BG Font

@@ -1,0 +1,111 @@
+BG v3.9 se (unicode)
+
+BG.EXE is a tool for print text color in cmd.exe. It accepts regular expressions for print ascii characters. It also have useful functions.
+
+Notice: This version fixes a problem happened on windows 7 sp1 with the function font.
+
+::::: Parameters :::::
+
+Kbd
+::Wait until you press any key, and returns the ascii code.
+::If an extended key was pressed, returns the second code plus 256. Example. If you pressed the up arrow (224, 72) returns 327 (72+256).
+
+LastKbd
+::If any key was pressed, returns the ascii code, else return 0.
+::If the key pressed is extended, it returns the second code plus 256. Example. If you pressed the up arrow (224, 72) returns 327 (72+256).
+
+Mouse
+::Wait until you press primary button into console area.
+::When you press a valid button of mouse print: rowNumber colNumber (both 0 index based).
+::Also, is returned a number, where you can get the same info:
+::Set /A "mouseRow=%ErrorLevel% >> 0x10 , mouseCol=%ErrorLevel% & 0xFFFF"
+
+DateTime
+::Print eight numbers, separated by a space, that corresponds to the current:
+::DayOfWeek Year Month Day Hour Minute Second Milliseconds
+::
+::DayOfWeek value is from 0 to 6. 0 is Sunday, 1 is Monday, ..., 6 is Saturday
+::Year value is from 1601 to 30827
+::Month value is from 1 to 12
+::Day value is from 1 to 31
+::Hour value is from 0 to 23
+::Minute value is from 0 to 59
+::Second value is from 0 to 59
+::Milliseconds value is from 0 to 999
+
+Cursor 0 | 1 | 25 | 50 | 100
+::hide or show cursor of keyboard or change the size.
+::0 hide
+::1 show
+::25 small size
+::50 medium size
+::100 large size
+
+Font 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+::change the size of font to terminal font according this next table:
+:: index    size
+:: 0        4x6
+:: 1        6x8
+:: 2        8x8
+:: 3        16x8
+:: 4        5x12
+:: 5        7x12
+:: 6        8x12
+:: 7        16x12
+:: 8        12x16
+:: 9        10x18
+
+Sleep milliseconds
+::do a wait or sleep in milliseconds. milliseconds should be greater than 0.
+
+Locate row column
+::locate the position of cursor in row and column specified (both 0 index based).
+::if row is less than 0, is interpreted as 0.
+::if row is greater than the max row (in the console screen buffer), is interpreted as the max row.
+::if column is less than 0, is interpreted as 0.
+::if column is greater than the max row (in the console screen buffer), is interpreted as the max row.
+
+Print text
+::print text without new line to end. The text can use oem escape sequences.
+::please see the regular expressions in down.
+
+Print color text ...
+::print text in HEXADECIMAL color without new line to end. You can repeat arguments.
+::the text recognize the next oem escape sequences:
+\n print a newline
+\\ print \
+\Number  HEXADECIMAL ascii number code from 00 to FF.
+Example: \01 is face character
+Example: \41 is A
+Note 2: You can repeat arguments.
+Example: BG.exe Print A "Text in color A" B "Text in color B"
+
+FCPrint row column [color text ...]
+::begin printing of colored text in the row and col (zero index based). The column is fixed.
+::row and column can be outside the console screen buffer limits.
+
+Play soundfile.wav [ntimes]
+::play soundfile.wav from begin to the end
+::if ntimes is specified the play is repeated the number of times specified.
+::(this function is different from the utility sound.exe where the second parameter correspond to seconds.)
+
+::::: Colours :::::
+[background]foreground
+colours values is a one hexadecimal (0123456789ABCDEF) digit for each concept.
+
+0 = Black
+1 = Blue
+2 = Green
+3 = Aqua
+4 = Red
+5 = Purple
+6 = Yellow
+7 = White
+8 = Gray
+9 = Light Blue
+A = Light Green
+B = Light Aqua
+C = Light Red
+D = Light Purple
+E = Light Yellow
+F = Bright White
