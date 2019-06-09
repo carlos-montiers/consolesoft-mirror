@@ -1,0 +1,8 @@
+# Allow run LIST Enhanced 2.4y1 on Dosbox
+# Jason Hood, 7 June, 2019.
+
+File: LIST.COM
+000BE3: EB 28   [ 76 03 ]       # bypass DOS date check
+0072CE: EB 29   [ FA B0 ]       # bypass RTC port check
+007F57: EB 23   [ B4 04 ]       # bypass RTC interrupt check
+#000CD6: EB      [ 74 ]          # allow run on a network drive
