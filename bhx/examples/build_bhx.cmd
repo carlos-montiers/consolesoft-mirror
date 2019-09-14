@@ -3,88 +3,84 @@ SetLocal EnableExtensions
 Call :Rebuild "bhx.cab" 1
 Goto :Eof
 
-:+res:b85:3684:bhx.cab:
-o&BzG00000wdwOt00000ec2UI000000,5A50rr9100000l&Wh`0rrc203zmw
-00000001(JbbME.vRy0swQ4+^cMK8:7.cJ*lRDJzE~2`I9x$[LJg&k=^8Dn*
-uKQv^fM[AwkrISSKe1xmi6ZUt3?N]2Inu{$)K/VW9C(LrNT5Si`B[,5^LN}`
-X#KFw*r(W}sFzVcOR/(``k*s(mjTNr:rfVnUgY3,}*NBHCFl5gwS#&t4a0*P
-),PXmZtFXBOySs9G>-)+ym[o~3w6.hpMa.)Pnf9(XC:}Y.PN0N/o~^EM*su?
-RGF6J`t5E,b)^durd/qlmc^-ws,mbA()2T<dtI/M=9Jw{H(l>?+t*z*[37-L
-P68KK+hG4WJLhY^{x*N7}=g<Uk}2W9K=rZG1Swg*TAvBgUZPaOhRZT2,ljej
->SOzY]c3G?f`?hO*[s[}z,4u(Y*4:C3<(:xjOEG^02MQR,e?{XEsDVQ1uQnv
-Ygv?>frLqgDwulG9Lz5aOJYrpxd[9l}OSX3^i<~}i(Zz:poLv1CKG^w{E>=j
-3/.9vFTM$OaLx`mW?W`)HQ{]2[sDiP]qa[BwIdezC3*XtWP:VswEE$lGNWqS
-)18w1HrmMV^O]TKX#tNy1]d0uuvQ8KksdJys~c(AZVJ}>yKH*`Z<Le.>NF87
-6<x`j1}dN$AOf6a?w0]`CRJ2MC&*{2WLh3l3)jhtkg`2aw2f(6u>HA6Ykl)C
-j&/^UAXB914eglh1f`SfMtCtsxTtDIw<sL)UtA&OL?Y?Gs4-#5Gb9X+RzSnF
-m$A/]hmL8J(39Uql9j8-cJjhzWB-SQ?(Ck+}Py.9N7)}3??`)PE*$KhPzjMA
-0aU^LuI{fCXCKhBunm={eWM1ro^+yRo7P4Wk`M>0M8Mi*MMc3P6Gn?n0p$mL
-0SAk>f6~=#S8+Pj5IDt(7+SR/<Oze6&EbElpKG+,Zd/sLqIBe)n{Kp(j7j=R
-t0WLrjN<MQOqrV$SoC$<rc96PtX2Y1Q8t]EQbgANoEYrR98o&>mAT]sGbvRM
-tu5w<jhfFAq$6GA-.=clvNab*-&yzR>6hps0:[>&2,i]/NpcH8kJH~z4~(Av
-5zFH,),?bOzGX9H*Lldn:Rkf5I?-r]q`/`3`[:pswMzIt>AG=wdz3{uht<h6
-x0$IkFiFA]j?/O2~<4v}9}6[LGF<C~Zrr[g~*.ViUunPX?{poOqku8=tLg>5
-+Ngqv375wuo,7?3g=tKm/7IC~WE]gegHATSCIiExB66{PvPub&<OC#6A<}4H
-D:y[KjuBpu~]$}*D#7~f/vQ1NG#`rzKPztk>xJ`)v#fN{V~GjJ*Mu0h=jbsf
-w6^z}kqE&Q}I3TCy3PWTx]r`loL1/hwUozWX`kaSW3Yz^0p<.pHA37.x7Fjo
-`G-Pa]&YIo&~D]j~WZhH{{O6WDAW.,t3aUG)BYrDVZeQh*xG{K-M+2f]Cf:F
-V:+8FX0ES1Qnvah]5u8rW*Gm$0l<GV<UPYUg`?wDvaKY-]QZoC=0Pe?RcgCN
-IOf9(PXa7OEIt8)(2el+oEU5Vj818dty9m[D>s3ZCXJ8VC4^Yh`o0XBudR:W
-JTVGg3-$7~Cdl=F?T./uc6i?Rp>/M^{ZA<pbFAa{?U~koKaHc-8]DnZXL9.f
-}p$iXApeV2-8hADcmh/c9Gv-e}6M$j4CixsXe8PSCRuU.+OPQ]v(km3qjwd,
-?fs^dhvz*K40YV>Gubh(E}$K0UBm5R&ULZyW]$lzz270d~6CFC9YWH?TVymY
-{2X#*&`Ewj]w77^.*g4IG6sz9KhBA}KO5IO9qR&XjUCJB>Gp=${3Wc3fxbvT
-[^]}<4JxtWyljziia1N0Pe[:nlDmoJd>O/kTfJ-9omu,j}Xf7fQ8M/4:OPlT
-=KYV]rQ?U]eFPU/v&0*zot74M-w+/`Kd*(VPbLGUxzSLlah[U1Ubbq.Nio:H
-M~K:NbDF#YiCgtuv(RB^tX)jagc&TvIYH35Y67hLVWUr{Plw]1o.0zekuqCt
->G2lG:zCE6+4,Hf&&6zG^OF7sL(w}.m^l?{4Tmem[Ir~u=GTIlM.?)G4hWxy
-8)3]Q^cE,(d=)^sS.Zp}Emp/]r-Iv1kNzu.i0NLoR/hFJanPhi&v2n[?DeBm
-{QarTXlTvH]J&lA>FaF83ChA.iL-`qQr0IszF]xv.P,EfR4Ig76H~rm(s#+[
-7V4vV>qCfJfokRo{D~#$a^-d-<^Q7Qn0A[I^zNKF*{+U)W])DFP]syXisk0g
--B>QvW{Fm^50MW#lm[CwiO&3C0z-az]NoM0Oow}w&wwPO.d:BT4,4I2R(8L6
-L*=mBDy02)idiM7eao.x[1mP<`2H,yyU2T)flFL6A{vsJ}Q>sir-9{5`o4E^
-}:slV<FHgaWU&&c*}I`Nj9Oa2?v<?ZYkJh~u3vy2>u}$mBvCM=~O-F)Mt+Bt
-58qJ}FGHA&e)x/IhG7/BNNuy6Qlp3yEJ<]mV)6jfL1Gv$~3.QIbQpYd]N~KQ
-86(4[m3xZz^WqvL8ZgnPBdN[rqDH<z5#ewLm}CcubTUs4L#BFfSmar~5bFUI
-y+>88P[xj}N:5#E64^>$^K/ks:/wZo.*jSJ0OM$jne[bnLG^*EUbtnCnd}v+
-)A=ZMF6Qw>L9d7dKCFi^Rq<s4Lw[~0xxjbOeowaLNzu0qfNlG~op4d}&kQRH
-6ck>2:rq8)&uPM}m3>F~0{o6Hbx7T:Dw/TPMYZO?C?v/.&lbU5c>))1HcaH*
-lQocHAaghA:M1AV3`-+Jh=I0IGOi.ymf[o=IG<:x>lt(=TSeTHh3v3SQ),$*
-R3]}qn$7$#wkbNd(:4X6<c`]rhh>S+(ZyyuodL+D0F0>ewNk#T3x,Ue4$OjJ
-rDHP]L0&28A,[Z/w{aXg][nR?<vTcDo<3Woi-MRmL4^7CK[a-$4wD:F&>FAy
-GKAKCXfd<g6o-rfrU`sYpQS`$m+76XwipsGKwelsw*apPbZ+vU=i<]U01/MD
-ldv.>I&]8MX0fDiIkhfVF#QV4Q*spzlf>:m{r+Y=IlymWiES>+B5jR-ZbR]l
-<rS^#+8)}y9MjMXd$G8X(jUk$GR`h2ICPJ^y7RbId+Q1TDg]w1e&rUU78t5V
-/KI#f7b+=9I<htB>W7$.SP5.DHeB1JRWA8i71B1c.9212RG*Or0{>51V(T^k
-WatJS6<Q&Qd+W:(JmITm>#0Hr?}lB607^CLpqXjG-iSK<K#~5+-{hjgI/6BW
-aj~5gOYByccNWqY6D/N/J97JbSFDP#:#C)C.D5u=h2fn*aKCDfeqm4pZSfyX
-Lxx7axECs.t{C<gC(?JSn{m1^/PT(LaR<RYkuGq(o^ExhGXL>vJK#`TQ?O(W
-HZa7{^oQ=KfH`))aMpO(3OYQR9HN++>haay(KL<viIAsB?2iFucd7,SbE<pB
-LdEuH[d5zi?vi`y66.DZl1=$wz:bYS:b8EKQ$5A]-X=VP)6H<SkSgO95eCL(
-xq&&K>Vxaud.3z<ICc7i:d++PM{.LT`Iitik8Lt(XYSet*Bm#>?Y.kt8,Mqy
-hXzWNkfj3yk0W1vjjR+SzI`hieWpl&)?$ceoEIkl`Tc(YK~UY~ns3LBD-wX$
-n1~4Z?.xpPS2-}tGY9g70eTq>Dk5=KHS:ODsL3kQt$?saDOZOR]R(<{B~61t
--^HUe.?KN<Bh2CiAxPSoSB(7:83P}sMv>rcw3Aj8m2}7X~BT$4Z4<l*}zD8r
->oFxQ`dX[2wp/lZRECJgS(ceSLK`Z)aPCK4cHLLY02)*qTa*]rKB}9R`Kc>x
-&gQQaaN2`/nTk?fQ$pebr.ZwqoQ1Ctnxy`oA1HO/^1^.15})7.6+iVm>zNrb
-9Qxexr<:$di(Sd>LGYTcfN5#4G,6^N>2:Kj]E2piG3t3YByRWaE7R17caFK$
-c3,<NY5<-Ln]1t~p.6ja:~-.`J06hjbqWru{->vxWSEOBi#?zfCj11X:EiaV
-WgW9<TG+x>cqe2DBmVAql~P+f4PG:qVE>UnKY?jT4P9d8FD=,VP1=?mC^T9L
-BC/&p,6#k`Gl^PzBw,/DT}i.~V6a6TP({bBE(m<Cmfvxg>ZX)g^8ecP5hso~
-f-J.nS{83c}3]7D]EWM2/C1R^Tpr`-09M8Y7<d6#S<$-QiAp?Vsxj0.pPg/^
-Xfff.tRfG4LyPBu6bHswx^[-flQNYVoN+m&N~Edae6PSCj9+}a:kg6q8g0>m
-Ih*S*I,nTEZ>jY6.y}Q6K4^>eg1$DSi$BznV),u?)Y7B4^C,Sz:`=I6/OYzn
-*E9n(x$Ju^0>U(iW54Mv5MY,LxR-G-4IKe0c-GP^h47kaA:b]4GQs&^:ep.^
-]2Z^<cPxH+`E)0G&=7StQ&Ocp]?>,U.-6qao*u)XB(M7=pYXV^P</8egc^&.
-J/i19:mUwDJ&`ZjA9{SdhjLK/kif0a2ChD<?WH~1)c*rKJ<gKWG78DE>6a{c
-fJOT0f,{yn3QXb6z8nL&^aUflFTg[+k<Kf#5vrJDi$7Cx^0=8:vWMzbh#HCv
-O7ka:NH~e7[nBP:wD&9yClES?BrWjmu4~2KCZ7BeS,y8Hl&{Y]UY<63Ct:,q
-L(N,&WhW^,NOnL<+G2.-gbPqPr2ENf>a,t3854URJ>*Jmbir&n[jFik[d6kE
-y9(wPlsTd8u`gmiz5Dk89g5JK=A7^uP<P[0hi&K.<`428
-:+res:b85:3684:bhx.cab:
+:+res:b85:3470:bhx.cab:
+o&BzG00000JTU,*00000ec2UI000000,5A50rr9100000l&Wh`0rrim03zmw
+00000001PDbcA3*vRy0swQ4+^9F~c]ljA]qty.l-0UtCl001hBp=5dLzEyow
+=t/,XWwn[S+K-3c*Wel?&v-sxI<#z3Ak[?0?5+$u?)[=Vz0,<YWx.qOZ&R}F
+MF:2YL9P/^3mdXz32aavtvHG4ny*v9enI<GnRZ1{IFm6A0dZErc>VHW2q+K*
+nSB9KWZn=:?dw$ynWY6eaUP=Kue]UmmVNl4RWj`~Z{vv22GUvfRAyOdI^S`/
+Cel.1N8?h6qRg*ZnI*w#.V6PE005b.PRi+n?eoZCVmLLHvVZ>D4~}qdfC1i-
+,nNw=NCiFW--D:,mVX&:gEu7gN&62.[Yu/YJ4-Z0Eq$ye*x.fiEscz~RVPby
+1rE-[hBlnqjZXqz]xc~#X>?f?g^Fo:y^X<[z$.EgSo$]0^}^JTv)CGih]5ZQ
+e+}SeP1q<8Pmwtxs*28]R*Y^1WI2+*eR#Yes?RUXzIU=.:{-d=a0Wb2mcB$B
+f:4[u<OC.MxW(-KOvqPA.4mg>qkeiR4*6sWd?:~h6ydvE[Z4]ZsrsHDHiIqh
+HzKMR8:`=2.$3xE/#h(EvQgUVmkG=DK4UHaB+kw?UzNxTD/=0(9Zl59^I9+a
+HAF~Do/=m1f~Wd(NV51j4nC368AOr}ew#=PXj[dpVaAJiO>hyxH0MKFC2dov
+xPm`16q8GI*[hjSK]Quvt/In8/=~EFH0iIv8`T+YcMrsDut*x}JAHzXPhgrF
+b=&Q~iFf#qSp~-By2`mjuFbxZK)<Y*W+4^hZOU<nVk6lDNfM?*)1>W-<HzG.
+kBX`sOE}H]K9cdNZO[M/^Y[U.N`:p6qq+lq:XiIKejYL=/jY.CP/bNfjYJL$
+sB7$U+6RM56mKUo=5DHiZ6FG6LOfNArw&wnJn#Lj18V:Z.xUXIuYi^5ngrH(
+sxe}tV16h0jzfH.BHl,/]#SAQR~*Nfr24C`hf5ronW6#DG7dC`q4Ho1~s1,V
+6LZPX.oLC7rnSeB`/u6ha2,itm2Z[E:vef$F6Y&)1lJ7bi=3iG-reu0NOzr.
+agQK#?rOOtx6q{DYu[[$WY$rBv=7BJ+`iIclDqr=ruoEhVUwalscG1xAEQp+
+o#f5m[W3beBJG)ASJLE>l6XmA(jua5mYtS~~8[=OL.ary6V]J/]5Awz1Vo~w
+))SZ[o(e&4+=Zt5[M.urVhrw?^iRJo(eCMaprtAEBB0/r?O:fyNlDJUz.0Uq
+pDy9(oKKx>xWD(Z:v4,Gg<)IfiDn1b[RTWT6k$9:&NZ3pmJiLQ>&lFB{Srt2
+OMwy~H1Xw+WDX]QQU6N19[An]k]tQ~Sw-S9wUQ1F(yQ.#48)}f{#3&877lR`
+/:36}7SCIC<fN+LWRgNcrpP/i4h-3WK}]2?4ZnIzTjaZ1dM}ASp]HNJ?.8K}
+McV#HK2OIiEvHdTz/?F{4SFY8>-E]6/Bu^xgX=S.:J40:i8LjIm=*kvSI=Y>
+JMn9tqThr[UNS<D-rrFl+MFf#In)97/(.(^y8fZwl#ksQ:0b?kF~58QXW}3t
+l~J){=PNe7Iq4cP{n<wS>d4{Y.Ghd`q&THst-jV#VS1`X^fMyM)r<rh]V9Ue
+h2ovPhX.kkS/gPjNOZ<j>j?UJgY[?m~hB.^WQFn-(m+/1NOP4&p~Qtqo.WPY
+1O+$9gYMPek9]3`LgX<8*{HFU*cT6xs*taJOPD=YgMmdF->3J:dr23qI$I^#
+2&97EY^2WYL3)DeKz*RJtxWwbiK56AWreF-oBQx7AA{vg/X&1TeQ{Cskgl3S
+KM?PXi&6:h5Ea9h55GVBk-.+kC/dolh&atV2uWxnP>XWKT/db6jLDQoImm[3
+w.Ky:ui<RNG(eo=l/HWWytuhCR:43FItSP+SV#.aiihskSu2V>4R5*fb*9[A
+SXd)BVYr&]l9f.o.AK?xD8?C6))/uIxG4V2K$M0QC1U)6z}EjVB*OG${P5Kl
+]Zu(]mpG4]xnwRz~k-pheJV&G5(X7I-+tt80xftQ^`1.:ay+q#n?VOrpY~Os
+]TZ(*iJa9&+zXUml,fE}C5jvTUA473EzYo>H]pa/8y4`xBkhvCt3C-CA:aA9
+QfB{c+3e,?-jam9]TA?):X(2zn,}qOc>Q31^,{p~-Z,,~<z{M*fXsDN2:TI.
+JoP<umW1>rpV&fe1o5u92zoNcuaK[]Rm=oJfyUqA`OB1dMe/P7AY}a>Nd<el
+6sTjkX-S`e.Bnv*WyoIK9i^oNW./c02CZ.x^as6[Kgve>HGx344*SRRD4Dh1
+8o-CKmJ2+ykWNFOGyL}m4<#P4W<KDl7*fvt60kMzfl/>D0bZax[kS)w6=[[c
+]S(GBm3`bMylg?KQn^K,}Ri:^RmCngvR4G>e=-*t9,VSd0Vm#hGd})01Z+rl
+mf&0=d:lD9F/m*jO*:ix1UQ5,P&HInZREtZhVM,Cg]J.Cxd9&`uPop^acS4*
+&QY39=:<Elak+gFtVHO-U~CDE0Fvu[28Y6hzW*cx(m>8<}(91pee?(4m/SR9
+?U:4C8f1M0tSHe[6<}}t0-=X(82,-Ncz<70+cUvSMU..24+~])ZemJ60*k&H
+IC(v0Ko{dHkVwhT:b04z?~3a4xwIQoG3g^zKzx)=nuD=CiB}?[H{^=*}yro:
+Y+s[--B]bMI=72LJP)Gf)-&FiCNlib1kFfnDa>*`<(6uQ4TwkCWflts+iO,o
+M8.,0vBeqK&)-J`R9v$jS$jz<QR[A9WFJrA6DsN.q:aalNC00Ij&bnvbp+Jc
+.^#Q:-,WDPh*kMd3Zihf}L]6><k/-cQvN+#K4NLK5PYGb,a+Sb>Y1qfU~-M]
+RsYX415,/)0jWQh*Q$a9S4<<y`pIQl]S1egY0#mndo<#bD5>2).o6}`zA9p0
+2=,1{YHAzfqI[no?iEoKnh=JTcQyhiiQ=kOy&Po>(&iZQqST<*gb]c(K*[pL
+.8#[nWvh2ymqYC?KqRNSq,Pu]/^-}+EAsMtu,Z`H4RT9=>yfV=k]&e5X?^7+
+el2a*nKk5cqWwREyhe{GPcm[(VJfD>lk9kKChoL-TyY2J327K[=$1wF]a-3X
+,2=2E>XeRw=&{Gf0XLt.X&{)JsWh,{{ym0Bh(WZO}XG4S8-Ksomvgt[D8Q&L
+:Yr{=sV8v-h5?,=a.4ct]xQEI0?JimxtWIa31Syz}mWW2vq}EN{/J?{)XjBa
+RUqXS,2-(0{rnc`xZe#6b/O>i+~.oNl[9)6dUF(yd-6Be4E.x0L*w8fzeeKE
+mG:S6=R.1T2V7TdQnaGISduM5QgdfnrKDT8HS*kn(:apQ}1Z9D0G6wOkuKf&
+`0V=a,k`672&qjxEkhB>=K,]41v/9(f=DS~0j8I~36UA+<5ufrP^3LB-rD~a
+)(J7](esg$F0<8b=HHS(*3uRzQl>r/(AkD+kh*^th5Y~+LmnmEta&2UNr}R.
+DU~d}Gr#qZi*N<u3KmN)YV5`ZG*geim8^^{fWHmURMaLn1RJQhVi^aM3oU:3
+RX7+4Dz:=PW}42Qnf,)A6RL>QoI<O=X0=vN/VHI/sOPZi}Ax?{L64LoLV8uj
+-x>UHEorbIf6xpf7F=CW=b*U`mTl4DUi*sh3,OogT=x`(y)H*DZ#U8*I9:W0
+nEKtEyyplf0gaenZDTI3<{vgV7,22Kx}rf0hp1RqOU0ii*t><7U$qEg1^MJj
+x~Xd97kJg8rpWU`9qwd4<$)IlF3=Hj-#SnFixryeAtf/>vaFE$7BJMothMyd
+dKvkx6f1zDUxp>8Tc/*y0S&LXQC#{#`SQ/2kjU.WgOUJlj<QmrRUKgM:EsXi
+on,9O*n:/JNMIU=i9b:#4R:j6lI`gq&/UO4yYGS2N~Tw#L274EV+[Os52Vna
+bwD1Uqb}1,ivJ556}g.4nvIW$h[]Ak/*`F.ya]lQgS[}0-s/5-~mCI<d/5}T
+?OGote3l=MbDE<Ir9Jb/*[8KvY}t:wih,j?-R43Gs5nMLzcYXB}I6TY}M*0i
+lbdIJ.XH*Csez/#A>ko$QtV^hd&mEntgR5kj-lOH?b8/,blhNAbZ6DT<nb]=
+kJy0Br)2D)N[pbx2+dxO4]0E43gCW2I(BalXlN~GI3kR+{-?jLa8AWGQWP`J
+W<R05{a^-?P,Y?WaDER>5cDxf*f)YE46>[yRq1HU6niNaPU?yt(<+HuNPsO`
+2Q9)*:pS}}qi,Q5.G6ab2Tg}7OIlVoa1u&k>9{5:{,C#vwRnb5fpv$4-]U8*
+SnVe,)*eW$EuAK`?a3PJc3X]K~n4ea4J0GnU<06LTN39QSvu,o>-.?1.EeB{
+g.3f.-J>H~3R1Pu3UD<pEK<(e(]ivzHMqTr8k/UKSJMoXwbFjw3sq8C&M6U,
+*t3>w`j8I8BbCki0abZa
+:+res:b85:3470:bhx.cab:
 
 :Rebuild
-Rem Generated using BHX 5.8
+Rem Generated using BHX 5.9
 SetLocal EnableExtensions EnableDelayedExpansion
 Set "bin=%~1"
 Set "expandCabinet=%~2"
@@ -95,13 +91,14 @@ If ErrorLevel 1 Exit /B 1 )
 Set "lbl=:+res:b[0-9]*:[0-9]*:!bin!:"
 Set "fsrc=%~f0"
 Findstr /I /B /N "!lbl!" "!fsrc!" >"!bin!.tmp"
-(Set /P "inioff="
-Set /P "endoff=") <"!bin!.tmp"
-For /F "tokens=1,3,4 delims=:" %%a In ("!inioff!") Do (
+Set "inioff="
+Set "endoff="
+For /F "usebackq tokens=1,3,4 delims=:" %%a in ("!bin!.tmp"
+) Do If Not Defined inioff (
 Set "inioff=%%~a"
 Set "base=%%~b"
-Set /A "size=%%~c" )
-For /F "delims=:" %%# In ("!endoff!") Do Set "endoff=%%#"
+Set /A "size=%%~c"
+) Else Set "endoff=%%~a"
 Set ".=ado="adodb.stream""
 Set ".=!.! :set a=createobject(ado) :a.type=1 :a.open"
 Set ".=!.! :set u=createobject(ado) :u.type=2 :u.open"
@@ -131,7 +128,7 @@ Echo !.!>"!bin!.da"
 Set "ret=1"
 Cscript.exe /B /E:vbs "!bin!.da" >Nul
 For %%# In ("!bin!") Do If "%%~z#"=="!size!" Set "ret=0"
-If Not "!expandCabinet!"=="0" (
+If "!expandCabinet!"=="1" (
 If "0"=="!ret!" Expand.exe -r "!bin!" -F:* . >Nul
 If ErrorLevel 1 Set "ret=1"
 Del /A /F "!bin!" "!bin!.da" "!bin!.tmp" >Nul
