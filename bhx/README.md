@@ -1,6 +1,6 @@
-# BHX 5.8 - Encode a binary file in a batch script for rebuild it.
+# BHX 5.9 - Encode a binary file in a batch script for rebuild it.
 
-## BHX 5.8
+## BHX 5.9
 Encode a binary file in a batch script for rebuild it.
 
 By default, the generated batch script name is mybin.cmd.
@@ -54,6 +54,9 @@ FC: no differences encountered
 ## Changelog:
 
 ```
+v5.9 :
+	+Fixed bugs that cause rebuild failed on windows 10.
+	 (Thanks to Petr Lázňovský for report).
 v5.8 :
 	*Minor changes.
 v5.7 :

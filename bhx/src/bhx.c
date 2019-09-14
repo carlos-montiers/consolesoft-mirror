@@ -1,5 +1,5 @@
 /*
-  Copyright (C) 2010-2018 Carlos Montiers Aguilera
+  Copyright (C) 2010-2019 Carlos Montiers Aguilera
 
   This software is provided 'as-is', without any express or implied
   warranty. In no event will the authors be held liable for any damages
@@ -21,10 +21,10 @@
   cmontiers@gmail.com
  */
 
-#define bhx_version "5.8"
+#define bhx_version "5.9"
 
 /*
- * BHX v5.8
+ * BHX v5.9
  *
  * Compilation with TCC :
  * tcc bhx.c crt1.c
@@ -347,13 +347,14 @@ int PrintRebuildFunction(FILE * fileOutput) {
             "Set \"lbl=:+res:b[0-9]*:[0-9]*:!bin!:\"\n"
             "Set \"fsrc=%%~f0\"\n"
             "Findstr /I /B /N \"!lbl!\" \"!fsrc!\" >\"!bin!.tmp\"\n"
-            "(Set /P \"inioff=\"\n"
-            "Set /P \"endoff=\") <\"!bin!.tmp\"\n"
-            "For /F \"tokens=1,3,4 delims=:\" %%%%a In (\"!inioff!\") Do (\n"
+            "Set \"inioff=\"\n"
+            "Set \"endoff=\"\n"
+            "For /F \"usebackq tokens=1,3,4 delims=:\" %%%%a in (\"!bin!.tmp\"\n"
+            ") Do If Not Defined inioff (\n"
             "Set \"inioff=%%%%~a\"\n"
             "Set \"base=%%%%~b\"\n"
-            "Set /A \"size=%%%%~c\" )\n"
-            "For /F \"delims=:\" %%%%# In (\"!endoff!\") Do Set \"endoff=%%%%#\"\n"
+            "Set /A \"size=%%%%~c\"\n"
+            ") Else Set \"endoff=%%%%~a\"\n"
             "Set \".=ado=\"adodb.stream\"\"\n"
             "Set \".=!.! :set a=createobject(ado) :a.type=1 :a.open\"\n"
             "Set \".=!.! :set u=createobject(ado) :u.type=2 :u.open\"\n"
@@ -383,7 +384,7 @@ int PrintRebuildFunction(FILE * fileOutput) {
             "Set \"ret=1\"\n"
             "Cscript.exe /B /E:vbs \"!bin!.da\" >Nul\n"
             "For %%%%# In (\"!bin!\") Do If \"%%%%~z#\"==\"!size!\" Set \"ret=0\"\n"
-            "If Not \"!expandCabinet!\"==\"0\" (\n"
+            "If \"!expandCabinet!\"==\"1\" (\n"
             "If \"0\"==\"!ret!\" Expand.exe -r \"!bin!\" -F:* . >Nul\n"
             "If ErrorLevel 1 Set \"ret=1\"\n"
             "Del /A /F \"!bin!\" \"!bin!.da\" \"!bin!.tmp\" >Nul\n"
