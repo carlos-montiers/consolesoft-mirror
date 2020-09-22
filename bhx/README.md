@@ -54,6 +54,10 @@ FC: no differences encountered
 ## Changelog:
 
 ```
+v6.0 :
+	+New update to work on Windows 10.
+	 (Thanks to Petr Lázňovský for report).
+
 v5.9 :
 	+Fixed bugs that cause rebuild failed on windows 10.
 	 (Thanks to Petr Lázňovský for report).

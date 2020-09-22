@@ -1,5 +1,5 @@
 /*
-  Copyright (C) 2010-2019 Carlos Montiers Aguilera
+  Copyright (C) 2010-2020 Carlos Montiers Aguilera
 
   This software is provided 'as-is', without any express or implied
   warranty. In no event will the authors be held liable for any damages
@@ -21,15 +21,15 @@
   cmontiers@gmail.com
  */
 
-#define bhx_version "5.9"
+#define bhx_version "6.0"
 
 /*
- * BHX v5.9
+ * BHX v6.0
  *
  * Compilation with TCC :
  * tcc bhx.c crt1.c
  * Compilation with tdm-gcc :
- * gcc -Wl,-e,__start -nostartfiles -m32 -Os -s bhx.c crt1.c -o bhx.exe -fno-omit-frame-pointer -flto -Wall
+ * gcc -Wl,-e,__start -nostartfiles -m32 -O2 -s bhx.c crt1.c -o bhx.exe -fno-omit-frame-pointer -flto -Wall
  */
 
 #include <windows.h>
@@ -149,7 +149,7 @@ int main(int argc, char *argv[]) {
         return help();
     }
 
-    /* Check for Prerequisites */
+    /* Check for prerequisites */
     for (i = 1; i < argc; i++) {
         sArg = argv[i];
         if (strnicmp(sArg, "/", 1) != 0) {
@@ -347,42 +347,45 @@ int PrintRebuildFunction(FILE * fileOutput) {
             "Set \"lbl=:+res:b[0-9]*:[0-9]*:!bin!:\"\n"
             "Set \"fsrc=%%~f0\"\n"
             "Findstr /I /B /N \"!lbl!\" \"!fsrc!\" >\"!bin!.tmp\"\n"
-            "Set \"inioff=\"\n"
-            "Set \"endoff=\"\n"
+            "Set \"bo=\"\n"
+            "Set \"eo=\"\n"
             "For /F \"usebackq tokens=1,3,4 delims=:\" %%%%a in (\"!bin!.tmp\"\n"
-            ") Do If Not Defined inioff (\n"
-            "Set \"inioff=%%%%~a\"\n"
+            ") Do If Not Defined bo (\n"
+            "Set \"bo=%%%%~a\"\n"
             "Set \"base=%%%%~b\"\n"
             "Set /A \"size=%%%%~c\"\n"
-            ") Else Set \"endoff=%%%%~a\"\n"
+            ") Else Set \"eo=%%%%~a\"\n"
             "Set \".=ado=\"adodb.stream\"\"\n"
+            "Set \".=!.! :set arg=wscript.arguments\"\n"
+            "Set \".=!.! :src=arg(0): dst=arg(1)\"\n"
+            "Set \".=!.! :max=cdbl(arg(2)) :fb=cdbl(arg(3)) :fe=cdbl(arg(4))\"\n"
             "Set \".=!.! :set a=createobject(ado) :a.type=1 :a.open\"\n"
             "Set \".=!.! :set u=createobject(ado) :u.type=2 :u.open\"\n"
             "Set \".=!.! :set fs=createobject(\"scripting.filesystemobject\")\"\n"
-            "Set \".=!.! :set s=fs.opentextfile(\"!fsrc!\",1,0,0)\"\n"
+            "Set \".=!.! :set s=fs.opentextfile(src,1,0,0)\"\n"
             "Set \".=!.! :e=\"0123456789abcdefghijklmnopqrstuvwxyzABCDEF\"\n"
             "Set \".=!.!GHIJKLMNOPQRSTUVWXYZ.-:+=^^`/*?&<>()[]{}~,$#\"\n"
-            "Set \".=!.!\" :max=!size! :wri=0 :n=array(0,0,0,0,0)\"\n"
-            "Set \".=!.! :for i=1 to !inioff! step 1 :s.readline :next\"\n"
-            "Set \".=!.! :do while i<!endoff! :d=replace(s.readline,\" \",\"\")\"\n"
+            "Set \".=!.!\" :wri=0 :n=array(0,0,0,0,0)\"\n"
+            "Set \".=!.! :for i=1 to fb step 1 :s.readline :next\"\n"
+            "Set \".=!.! :do while i<fe :d=replace(s.readline,\" \",\"\")\"\n"
             "If /I \"!base!\"==\"b85\" (\n"
             "Set \".=!.! :for j=1 to len(d) step 5 :num85=mid(d,j,5)\"\n"
             "Set \".=!.! :v=0 :for k=1 to len(num85) step 1\"\n"
             "Set \".=!.! :v=v*85+instr(1,e,mid(num85,k,1))-1 :next\"\n"
-            "Set \".=!.! :n(1)=Fix(v/16777216) :v=v-n(1)*16777216\"\n"
-            "Set \".=!.! :n(2)=Fix(v/65536) :v=v-n(2)*65536\"\n"
-            "Set \".=!.! :n(3)=Fix(v/256) :n(4)=v-n(3)*256\"\n"
+            "Set \".=!.! :n(1)=fix(v/16777216) :v=v-n(1)*16777216\"\n"
+            "Set \".=!.! :n(2)=fix(v/65536) :v=v-n(2)*65536\"\n"
+            "Set \".=!.! :n(3)=fix(v/256) :n(4)=v-n(3)*256\"\n"
             "Set \".=!.! :for m=1 to 4 step 1 :if (wri < max) then\"\n"
             "Set \".=!.! :u.writetext chrb(n(m)) :wri=wri+1 :end if :next\"\n"
             ") Else (Set \".=!.! :for j=1 to len(d) step 2\"\n"
             "Set \".=!.! :u.writetext chrb(\"^&h\"&mid(d,j,2))\" )\n"
             "Set \".=!.! :next :i=i+1 :loop\"\n"
             "Set \".=!.! :u.position=2 :u.copyto a :u.close :set u=nothing\"\n"
-            "Set \".=!.! :a.savetofile \"!bin!\",2 :a.close :set a=nothing\"\n"
+            "Set \".=!.! :a.savetofile dst,2 :a.close :set a=nothing\"\n"
             "Set \".=!.! :s.close :set s=nothing :set fs=nothing\"\n"
             "Echo !.!>\"!bin!.da\"\n"
             "Set \"ret=1\"\n"
-            "Cscript.exe /B /E:vbs \"!bin!.da\" >Nul\n"
+            "Cscript /B /E:vbs \"!bin!.da\" \"!fsrc!\" \"!bin!\" \"!size!\" \"!bo!\" \"!eo!\"\n"
             "For %%%%# In (\"!bin!\") Do If \"%%%%~z#\"==\"!size!\" Set \"ret=0\"\n"
             "If \"!expandCabinet!\"==\"1\" (\n"
             "If \"0\"==\"!ret!\" Expand.exe -r \"!bin!\" -F:* . >Nul\n"
@@ -441,7 +444,8 @@ struct BUFFER file2buffer(char *fileName) {
                 printf("Error: Reading the file.\n");
 
             } else {
-                buffer.data[buffer.size] = '\0'; /* Prevent buffer overflow */
+                /* Prevent buffer overflow */
+                buffer.data[buffer.size] = '\0';
             }
         } else {
             buffer.size = 0;
