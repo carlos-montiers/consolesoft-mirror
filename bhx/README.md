@@ -1,6 +1,6 @@
-# BHX 5.9 - Encode a binary file in a batch script for rebuild it.
+# BHX 6.0 - Encode a binary file in a batch script for rebuild it.
 
-## BHX 5.9
+## BHX 6.0
 Encode a binary file in a batch script for rebuild it.
 
 By default, the generated batch script name is mybin.cmd.
@@ -96,5 +96,5 @@ Download Executable + Source (zip)
 bhx.exe info:
 
 Size:		8192 bytes
-SHA-256:	a25421d42d6d12ff983af4e84fb41816147021334697a1e2ecfd1aedbd675767
+SHA-256:	74a83d8aa18237ffc488e271f1443d99b41f6c5eef2d562469430e757b0cf16b
 ```
