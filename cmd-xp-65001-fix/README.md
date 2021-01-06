@@ -16,7 +16,7 @@ Note: this patch is for the version _5.1.2600.5512_ (this comes with the service
 
 For patching it you need:
 
- * Download [the archive cmd_xp_65001_fix.zip](https://github.com/carlos-montiers/consolesoft-mirror/releases/download/20180921/cmd_xp_65001_fix.zip)
+ * Download [the archive cmd_xp_65001_fix.zip](https://github.com/carlos-montiers/consolesoft-mirror/releases/download/latest/cmd_xp_65001_fix.zip)
  * Unzip it
  * `cd` to the newly created directory `cmd_xp_65001_fix`
  * Run the batch script `cmd-cmdutf8-replace.bat`
